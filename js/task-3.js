@@ -3,3 +3,8 @@
 //  Обов’язково очищай значення в інпуті по краях від пробілів .
 //  Якщо інпут порожній або містить лише пробіли, 
 //  то замість імені у спан має підставлятися рядок "Anonymous".
+
+const inputElement = document.querySelector("input");
+console.log(inputElement);
+
+inputElement.addEventListener("input")
