@@ -81,6 +81,7 @@ ul#categories ul {
   padding: 8px 16px 8px 16px;
 }
 
+/* task-2 */
 
 .gallery {
   display: flex;
@@ -98,7 +99,7 @@ ul#categories ul {
 li.gallery{
   list-style-type: none;
 }
-
+ /* task-3 */
 
 input  {
   border: 1px solid #000;
@@ -126,6 +127,7 @@ letter-spacing: 0.04em;
 color: #2e2f42;
 
 } 
+/* task-4 */
 
 .login-form {
   width: 360px;
@@ -207,3 +209,70 @@ input {
     background: #4e75ff;
     border: none;
 }
+
+/* task 6 */
+
+#controls {
+  display: flex;
+  gap: 16px;
+  border-radius: 8px;
+  padding: 32px;
+  background-color: #f6f6fe;}
+
+  #controls input {
+    display: flex;
+    border: 1px solid #808080;
+    border-radius: 8px;
+    padding-left: 72px;
+    width: 150px;
+    height: 40px;
+    justify-content: center;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #2e2f42;}
+
+
+  #controls button[data-create] {
+    background: #4e75ff;
+}
+
+#controls button {
+    border-radius: 8px;
+    padding: 8px 16px;
+    width: 120px;
+    height: 40px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #fff;
+    border: none;}
+
+    #controls button[data-destroy] {
+      background: #ff4e4e;
+  }
+  
+  #controls button {
+      border-radius: 8px;
+      padding: 8px 16px;
+      width: 120px;
+      height: 40px;
+      font-family: "Montserrat", sans-serif;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 1.5;
+      letter-spacing: 0.04em;
+      color: #fff;
+      border: none;}
+
+      #boxes {
+        display: flex;
+        border-radius: 8px;
+        padding: 32px;
+        background: #f6f6fe;
+        gap: 16px;
+        margin-top: 16px;}
