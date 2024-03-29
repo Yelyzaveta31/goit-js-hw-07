@@ -9,6 +9,6 @@ inputName.addEventListener("input", event => {
     if (normalizeName) {
 outputName.textContent = `${normalizeName}`
     }
-     else { outputName.textContent = " Anonymos"
+     else { outputName.textContent = "Anonymous"
 }
 })

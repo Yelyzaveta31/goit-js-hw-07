@@ -8,15 +8,14 @@ formElement.addEventListener("submit", event => {
     const passwordNormalize = element.password.value.trim();
     if (emailNormalize === "" || passwordNormalize === "") {
         alert("All form fields must be filled in");
+    } else {
+        const object = {
+            email: emailNormalize,
+            password: passwordNormalize,
+        };
+        console.log(object);
+        event.target.reset();
     }
-
-    const object = {
-        email: emailNormalize,
-        password: passwordNormalize,
-    }
-  
-  console.log(object);
-  event.target.reset();
 });
 
 
